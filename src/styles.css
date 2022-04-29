@@ -1,1 +1,35 @@
-/* You can add global styles to this file, and also import other style files */
+
+@import url('https://fonts.googleapis.com/css2?family=Hind+Madurai:wght@300;400;600;700&family=Questrial&display=swap');
+
+/* font-family: 'Hind Madurai', sans-serif;
+font-family: 'Questrial', sans-serif; */
+
+
+:root {
+  --p1-color: #6D3BB2;
+  --p2-color:#CA349C;
+  --p3-color:#FF517C;
+  --gray1-color: #B1A8B9;
+  --gray2-color:#4B4453;
+  --yellow1-color:#F9F871;
+  --yellow2-color:##FFC153;
+  --white-color: #FEFEFB;
+  --white-color-2: #FFF6FF;
+  --dark-color: #1b0524;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+h{
+  font-family: 'Hind Madurai', sans-serif;
+  font-weight: 700;
+  font-size: 1.5rem;
+  color: var(--p1-color);
+}
+
+p{
+  font-family: 'Questrial', sans-serif;
+}
+

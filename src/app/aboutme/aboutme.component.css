@@ -1,0 +1,39 @@
+
+h1{
+  color: var(--p2-color) !important;
+}
+
+p{
+  font-family: 'Hind Madurai', sans-serif;
+  font-weight: 400;
+  color: var(--white-color-2);
+}
+
+.box1{
+    border-radius: 15px;
+    padding: 1rem;
+    margin-top: 3rem;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height: 100vh;
+}
+.perfil{
+  margin-left: 2rem;
+  width: 90%;
+}
+
+.text{
+  background-color: var(--dark-color);
+  border-radius: 2rem;
+  padding: 2rem;
+  text-align: center;
+}
+
+.btn{
+  font-family: 'Questrial', sans-serif;
+  font-size: 1.5rem;
+  padding: 0.5rem;
+  color:var(--dark-color);
+  background-color: var(--p2-color);
+}

@@ -1,0 +1,42 @@
+body{
+  height: 100%;
+  background-image: url("https://i.imgur.com/CA0ZGVy.png");
+  object-fit: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: var(--dark-color);
+
+}
+h1{
+
+  font-size: 2.5rem;
+  color: var(--p1-color)
+}
+h2{
+  font-size: 1.5rem;
+  color: var(--p1-color)
+}
+
+.bg1{
+
+}
+.c1{
+  min-height: 100vh;
+}
+.color{
+  color: var(--p2-color);
+}
+.btn{
+  font-family: 'Questrial', sans-serif;
+  font-size: 1.5rem;
+  padding: 0.5rem;
+  color:var(--dark-color);
+  background-color: var(--p2-color);
+}
+
+.text{
+  margin: auto;
+  margin-left: 2rem;
+  text-align: left;
+}
