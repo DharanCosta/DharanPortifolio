@@ -10,33 +10,94 @@ body{
 }
 h1{
 
-  font-size: 2.5rem;
+  font-size: 2.75rem;
   color: var(--p1-color)
 }
 h2{
   font-size: 1.5rem;
-  color: var(--p1-color)
+  color: var(--gray1-color);
 }
 
-.bg1{
-
+.box1{
+  border-radius: 15px;
+  padding: 1rem;
+  margin: auto 3rem;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  height: 100vh;
 }
 .c1{
   min-height: 100vh;
 }
 .color{
   color: var(--p2-color);
+  text-shadow:
+    0 0 0.025em hsl(0 0% 100% / 0.5), 0 0 0.45em currentColor ;
 }
+
 .btn{
   font-family: 'Questrial', sans-serif;
-  font-size: 1.5rem;
-  padding: 0.5rem;
-  color:var(--dark-color);
+  font-size: 1.75rem;
+  display: inline-block;
+  padding: 0.45rem 1.2em;
+  cursor: pointer;
+  color:var(--p2-color);
+  text-shadow:
+    0 0 0.1025em hsl(0 0% 100% / 0.5), 0 0 0.45em currentColor ;
+
+  border: 0.125em solid var(--p2-color);
+  box-shadow: inset 0 0 0.5em 0 var(--p2-color), 0 0 0.5em 0 var(--p2-color) ;
+  position: relative;
+
+  transition: background-color 100ms linear;
+}
+
+.btn::before{
+  /* content: '';
+  position: absolute;
   background-color: var(--p2-color);
+  top:120%;
+  left:0;
+  width: 100%;
+  height: 100%;
+  background-color: var(--p2-color);
+
+  transform: perspective(1em) rotateX(40deg) scale(1, 0.35);
+  filter: blur(1.025em);
+  opacity: 0.7; */
+}
+
+.btn:hover, .btn:focus{
+  background-color: var(--p2-color);
+  color: var(--dark-color);
+  text-shadow: none;
+}
+.btn:after{
+  content: '';
+  position: absolute;
+  top:0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  box-shadow: 0 0 1em 0.25em var(--p2-color);
+  opacity: 0;
+  transition: opacity 100ms linear;
+}
+
+.btn:hover::after{
+  opacity: 1;
 }
 
 .text{
   margin: auto;
-  margin-left: 2rem;
+
   text-align: left;
+}
+
+.video{
+  width: 85%;
+  height: 100%;
+  margin-right: 2rem;
+  box-shadow: 0 0 1em 0.25em var(--p2-color);
 }

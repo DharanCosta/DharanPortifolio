@@ -1,12 +1,90 @@
 
+h1{
+  color: var(--p2-color) !important;
+  text-shadow:
+    0 0 0.025em hsl(0 0% 100% / 0.5), 0 0 0.45em currentColor ;
+}
 
+h4{
+  color: var(--p2-color) !important;
+  text-shadow:
+    0 0 0.025em hsl(0 0% 100% / 0.5), 0 0 0.45em currentColor ;
+}
+
+p{
+  font-family: 'Hind Madurai', sans-serif;
+  font-weight: 400;
+  color: var(--white-color-2);
+}
+
+hr{
+  margin: auto;
+  width: 80%;
+  border: 0.125em solid var(--p2-color);
+  box-shadow: inset 0 0 0.5em 0 var(--p2-color), 0 0 0.5em 0 var(--p2-color) ;
+  position: relative;
+}
+
+.tech{
+  height: 100vh;
+  background: rgb(2,0,36);
+  background: linear-gradient(180deg, rgba(2,0,36,0.02594541234462533) 0%, rgba(27,5,36,1) 85%);
+}
 
 .box1{
   border-radius: 15px;
-  padding: 1rem;
-  margin-top: 3rem;
+  padding: 0.75rem;
+  margin-top: 1rem;
   display:flex;
   justify-content:center;
   align-items:center;
-  height: 100vh;
+  height: 30vh;
+  column-gap: 2rem;
+}
+.box2{
+  border-radius: 15px;
+  padding: 0.75rem;
+  margin-top: 2rem;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  height: 35vh;
+  column-gap: 2rem;
+}
+
+.card1{
+  max-width: 14rem;
+  padding: 1rem;
+  color: var(--white-color-2);
+  background-color: #1b052498;
+  border: 0.125em solid var(--p2-color);
+  box-shadow: inset 0 0 0.5em 0 var(--p2-color), 0 0 0.5em 0 var(--p2-color) ;
+  position: relative;
+}
+
+.icon{
+  color: #fff6ffd8;
+  font-size: 3.5rem;
+}
+.icon2{
+  color: #fff6ffd8;
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.spring{
+  width: 3.5rem;
+  margin-bottom: 0.5rem;
+}
+.typescript{
+  width: 2.5rem;
+  margin-bottom: 0.5rem;
+}
+.boot{
+  width: 2.75rem;
+  margin-bottom: 0.5rem;
+}
+.html{
+  width: 2.75rem;
+  margin-bottom: 0.5rem;
 }

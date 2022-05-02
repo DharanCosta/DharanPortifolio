@@ -22,7 +22,7 @@ html {
   scroll-behavior: smooth;
 }
 
-h{
+h1, h2{
   font-family: 'Hind Madurai', sans-serif;
   font-weight: 700;
   font-size: 1.5rem;
