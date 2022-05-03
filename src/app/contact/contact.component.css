@@ -1,0 +1,74 @@
+
+h1{
+  color: var(--p2-color) !important;
+  text-shadow:
+    0 0 0.025em hsl(0 0% 100% / 0.5), 0 0 0.45em currentColor ;
+}
+
+p{
+  font-family: 'Hind Madurai', sans-serif;
+  font-weight: 400;
+  color: var(--white-color-2);
+}
+
+hr{
+  margin: auto;
+  width: 80%;
+  border: 0.125em solid var(--p2-color);
+  box-shadow: inset 0 0 0.5em 0 var(--p2-color), 0 0 0.5em 0 var(--p2-color) ;
+  position: relative;
+}
+
+.bg1{
+  background-color: var(--dark-color);
+  height: 100vh;
+}
+.formulario{
+  
+  justify-content: center;
+
+}
+.form-control{
+  background-color: rgba(0, 0, 0, 0);
+  color: var(--p1-color);
+  border: var(--p2-color) solid;
+  border-radius: 10px;
+  margin: 1rem auto;
+}
+
+.btnc{
+  display: flex;
+  justify-content: center;
+  width: 10rem;
+  font-family: 'Questrial', sans-serif;
+  font-size: 1.5rem;
+  padding: 0.5rem;
+  color:var(--dark-color);
+  cursor: pointer;
+  color:var(--p2-color);
+  text-shadow:
+    0 0 0.1025em hsl(0 0% 100% / 0.5), 0 0 0.45em currentColor ;
+
+  border: 0.125em solid var(--p2-color);
+  box-shadow: inset 0 0 0.5em 0 var(--p2-color), 0 0 0.5em 0 var(--p2-color) ;
+  position: relative;
+
+  transition: background-color 100ms linear;
+}
+
+.btnc:hover, .btn:focus{
+  background-color: var(--p2-color);
+  color: var(--dark-color);
+  text-shadow: none;
+}
+.btnc:after{
+  content: '';
+  position: absolute;
+  top:0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  box-shadow: 0 0 1em 0.25em var(--p2-color);
+  opacity: 0;
+  transition: opacity 100ms linear;
+}

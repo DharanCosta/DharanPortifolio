@@ -23,3 +23,25 @@ hr{
   background-color: var(--dark-color);
   height: 100vh;
 }
+.rowb{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60vh;
+}
+.box1{
+  width: 45%;
+  margin: 1rem 2rem ;
+  padding: 1.5rem;
+  color: var(--white-color-2);
+  background-color: #1b052498;
+  border: 0.125em solid var(--p2-color);
+  border-radius: 10px;
+  box-shadow: inset 0 0 0.5em 0 var(--p2-color), 0 0 0.5em 0 var(--p2-color) ;
+  position: relative;
+}
+
+.box1::before{
+  background-image: src() ;
+  content: '';
+}
